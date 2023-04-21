@@ -1,24 +1,17 @@
-import './App.css';
-import Footer from './Components/Footer';
-import Carousel from './Components/Carousel';
-import Navbar from './Components/Navbar';
-import ProductCard from './Components/ProductCard';
+import React from 'react'
+import Navbar from './Navbar';
+import Footer from './Footer';
+import ProductCard from './ProductCard';
+import Carousel from './Carousel';
 
-
-
-
-function App() {
+const Shoes = () => {
   return (
-    
- 
     <>
-    
-      <Navbar/>
-      <Carousel/>
-      
-      <h1>My Products</h1>
-      <div className="product-grid">
-        <ProductCard
+<Navbar/>
+<h1>sdfhk,lsjfksgjuk</h1>
+<Carousel/>
+
+<ProductCard 
           imageSrc="https://images.unsplash.com/photo-1603808033192-082d6919d3e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80"
           name="Product 1"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -48,13 +41,9 @@ function App() {
           description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           price="$39.99"
         />
-        
-      </div>
-      <Footer/>
-    
-    </>
-  
-  );
+<Footer/>
+</>
+  )
 }
 
-export default App;
+export default Shoes

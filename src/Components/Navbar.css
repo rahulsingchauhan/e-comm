@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(220, 192, 192);
+    padding: 0 20px;
+  
+  }
+  
+  .left {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .left:hover {
+    color: #0077c2;
+  }
+  
+  .center {
+    display: flex;
+  }
+  
+  .center a {
+    margin-right: 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .center a:hover {
+    color: #0077c2;
+  }
+  
+  .right {
+    font-size: 1.2rem;
+    font-weight: bold;
+  
+  }
+  .right i:hover {
+    cursor: pointer;
+    color: #0077c2;
+  }

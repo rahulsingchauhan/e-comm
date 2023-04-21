@@ -1,0 +1,28 @@
+.cart {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .cart h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .cart ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cart li {
+    margin-bottom: 5px;
+  }
+  
+  .cart h3 {
+    font-size: 1.25rem;
+    margin-top: 20px;
+  }
+  
