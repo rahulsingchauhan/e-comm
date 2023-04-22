@@ -1,4 +1,5 @@
 .product-card {
+  position: relative; /* make the container a positioned element */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,8 +8,8 @@
   border-radius: 5px;
   max-width: 300px;
   margin: 10px;
+  overflow: hidden;
 }
-
   
   .product-card img {
     width: 100%;
@@ -33,6 +34,8 @@
   }
   
   .product-card button {
+    position: absolute; /* make the button a positioned element */
+    bottom: 10px; /* position the button at the bottom */
     background-color: #4285f4;
     color: #fff;
     border: none;
