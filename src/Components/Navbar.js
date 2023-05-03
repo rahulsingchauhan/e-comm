@@ -1,30 +1,32 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const links = [
   { name: "T-shirt", url: "/tshirt" },
-  { name: "Chasma", url: "/chasma" },
-  { name: "Joota", url: "/joota" },
-  { name: "Chappal", url: "/chappal" },
+  { name: "Goggle", url: "/goggle" },
+  { name: "Shoes", url: "/shoes" },
+  { name: "Slipper", url: "/slipper" },
 ];
 
 const Navbar = () => {
   return (
     <>
       <div className="container">
-        <a href="/" className="left">
+        <Link to="/" className="left">
           Desi E-comm
-         
-        </a>
+        </Link>
         <nav className="center">
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
           {links.map((link) => (
-            <a key={link.url} href={link.url}>
+            <Link key={link.url} to={link.url}>
               {link.name}
-            </a>
+            </Link>
           ))}
         </nav>
-        <div className="right"><i class="fa-sharp fa-solid fa-cart-plus"></i></div>
+        <div className="right">
+          <i className="fa-sharp fa-solid fa-cart-plus"></i>
+        </div>
       </div>
     </>
   );
