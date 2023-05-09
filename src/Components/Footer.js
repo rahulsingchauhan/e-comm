@@ -12,17 +12,17 @@ function Footer() {
       <div className="footer-section">
         <h3>Contact Us</h3>
         <ul>
-          <li>Email: info@example.com</li>
-          <li>Phone: (+91) 8602399308</li>
+          <li><a href="mailto:rahul542554@gmail.com">E-mail : rahul542554@gmail.com</a></li>
+          <li><a href="tel:+918602399308">+91-8602399308</a></li>
           <li>Address: 123 Main Street, Anytown USA</li>
         </ul>
       </div>
       <div className="footer-section">
         <h3>Connect With Us</h3>
         <ul>
-          <li><a href="https://twitter.com/example">Twitter</a></li>
+          <li><a href="https://github.com/rahul542554">Github</a></li>
           <li><a href="https://facebook.com/rahul542554">Facebook</a></li>
-          <li><a href="https://linkedin.com/example">LinkedIn</a></li>
+          <li><a href="https://www.linkedin.com/in/rahul542554/">LinkedIn</a></li>
         </ul>
       </div>
      
