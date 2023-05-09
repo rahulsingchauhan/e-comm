@@ -27,7 +27,7 @@ function Footer() {
       </div>
      
     </footer>
-    <div className="rights">All right reserved @abhi to banai hai  </div>
+  
     </>
   );
 }
