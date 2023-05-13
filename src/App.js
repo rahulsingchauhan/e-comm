@@ -3,8 +3,7 @@ import Footer from './Components/Footer';
 import Carousel from './Components/Carousel';
 import Navbar from './Components/Navbar';
 import ProductCard from './Components/ProductCard';
-import { Route, Routes } from 'react-router-dom';
-import Shoes from './Components/Shoes';
+
 
 
 
@@ -14,9 +13,7 @@ function App() {
     
  
     <>
-    <Routes>
-      <Route path="/shoes" component={<Shoes/>}/>
-    </Routes>
+    
       <Navbar/>
       <Carousel/>
       
